@@ -9,7 +9,6 @@ const log = document.querySelector('.alarm-log');
 const form = document.querySelector('.create-alarm');
 const clearButton = document.getElementById('clear-display');
 const refreshButton = document.getElementById('refresh-display');
-const pad = (val, len = 2) => val.toString().padStart(len, '0');
 
 // DOM event bindings
 

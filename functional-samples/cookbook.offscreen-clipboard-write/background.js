@@ -43,6 +43,6 @@ async function addToClipboard(value) {
 
 // Solution 2 – Once extension service workers can use the Clipboard API,
 // replace the offscreen document based implementation with something like this.
-async function addToClipboardV2(value) {
-  navigator.clipboard.writeText(value);
-}
+//async function addToClipboardV2(value) {
+//  navigator.clipboard.writeText(value);
+//}
